@@ -1,0 +1,441 @@
+{
+	"info": {
+		"_postman_id": "85e679f4-79a2-4d9c-b6c5-f3d57c244448",
+		"name": "TestApiPhongnd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcyNjkxOSwiZXhwIjoxNjE3NzI4NzE5LCJpYXQiOjE2MTc3MjY5MTl9.RGxFl6QTr6nOzWfhbq8_gyBig9f2sC6Dt18gdC0e7vbmm-XZyI9g4hyHeXsOLBWRjUJPlC4gU-LCXsp7bEZ7Ng",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/accounts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcyNjkxOSwiZXhwIjoxNjE3NzI4NzE5LCJpYXQiOjE2MTc3MjY5MTl9.RGxFl6QTr6nOzWfhbq8_gyBig9f2sC6Dt18gdC0e7vbmm-XZyI9g4hyHeXsOLBWRjUJPlC4gU-LCXsp7bEZ7Ng",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"Test\",\n    \"gender\" : \"Male\",\n    \"phoneNumber\" : \"091234567\",\n    \"password\" : \"123123\",\n    \"email\": \"email@gmail.com\",\n    \"roles\" : [ \"Admin\", \"Staff\" ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/accounts/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\" : \"administrator\",\n    \"password\" : \"12345678\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/accounts/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update by member",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcyNTYyMCwiZXhwIjoxNjE3NzI3NDIwLCJpYXQiOjE2MTc3MjU2MjB9.1FjEv4j5YRo3cqvjnDTs0xVF07Vl5v79AZJtrAtFt96UC8SqSucaTNypa_XsxtIKnQd-6ybrfPpwcJMj1qNg-Q",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"gender\": \"Male\",\n  \"dateOfBirth\": \"2021-04-01T08:24:05.406Z\",\n  \"phoneNumber\": \"0123456789\",\n  \"address\": \"địa chỉ\",\n  \"introduction\": \"nothing plapla\",\n  \"email\": \"phongnd.dev@gmail.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/accounts",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update by admin",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJ0ZXN0MiIsInJvbGUiOlsiQWRtaW4iLCJTdGFmZiJdLCJuYmYiOjE2MTcyOTY2NDUsImV4cCI6MTYxNzI5ODQ0NSwiaWF0IjoxNjE3Mjk2NjQ1fQ.zDEXMOhtroyBEg0P5kyNvAHRkpu4EZKQYEWjTudlCcUe4Kc59N8Xkjkric3riNjLeNjS35rhdk1J7LxHT0AmNg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": 14,\n  \"gender\": \"Male\",\n  \"dateOfBirth\": \"2021-04-01T08:24:05.406Z\",\n  \"phoneNumber\": \"0987654321\",\n  \"address\": \"địa chỉ 12\",\n  \"introduction\": \"nothing plapla\",\n  \"email\": \"phongnd.dev@gmail.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/accounts/14",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/accounts/12",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"accounts",
+								"12"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Books",
+			"item": [
+				{
+					"name": "Get all book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/books",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get by Category code",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/books/romance",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books",
+								"romance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJUZXN0NSIsInJvbGUiOiJTdGFmZiIsIm5iZiI6MTYxNzcyNzM5MSwiZXhwIjoxNjE3NzI5MTkxLCJpYXQiOjE2MTc3MjczOTF9._CsMCBVOouEMNBYIaZuctOYvIKW2pbRMC5ogZ8YPPzBxei6o427TFzMMH4CkEgjFW7rTtLpuCdNtL6HBseEa0w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"test\",\n  \"descriptions\": \"nothing description\",\n  \"publicationDate\": \"2021-04-03T16:02:07.848Z\",\n  \"publisher\": \"nothing\",\n  \"language\": \"vietnam\",\n  \"pages\": 100,\n  \"categoryCode\": \"comic\",\n  \"authors\": [1,2,4]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/books",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJUZXN0NSIsInJvbGUiOiJTdGFmZiIsIm5iZiI6MTYxNzcyNzM5MSwiZXhwIjoxNjE3NzI5MTkxLCJpYXQiOjE2MTc3MjczOTF9._CsMCBVOouEMNBYIaZuctOYvIKW2pbRMC5ogZ8YPPzBxei6o427TFzMMH4CkEgjFW7rTtLpuCdNtL6HBseEa0w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\" : 11,\n  \"title\": \"test1234\",\n  \"descriptions\": \"nothing description\",\n  \"publicationDate\": \"2021-04-03T16:02:07.848Z\",\n  \"publisher\": \"nothing\",\n  \"language\": \"vietnam\",\n  \"pages\": 100,\n  \"categoryCode\": \"comic\",\n  \"authors\": [1,3,4]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:5001/books/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcxOTI5MCwiZXhwIjoxNjE3NzIxMDkwLCJpYXQiOjE2MTc3MTkyOTB9.b2YrSQ7Z8kU9gBrWqs7MSXzQrmKAZErYyr_dfiF5WhJbUKbLKz-XJWJXnBLMdpFsSlcOKpGX-w_2PAF3qo3TeQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:5001/books/21",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books",
+								"21"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Photo",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcxOTI5MCwiZXhwIjoxNjE3NzIxMDkwLCJpYXQiOjE2MTc3MTkyOTB9.b2YrSQ7Z8kU9gBrWqs7MSXzQrmKAZErYyr_dfiF5WhJbUKbLKz-XJWJXnBLMdpFsSlcOKpGX-w_2PAF3qo3TeQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"type": "file",
+									"src": "goku.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:5001/books/add-photo/30",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books",
+								"add-photo",
+								"30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Photo",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJhZG1pbmlzdHJhdG9yIiwicm9sZSI6WyJBZG1pbiIsIlN0YWZmIl0sIm5iZiI6MTYxNzcyMTY4OCwiZXhwIjoxNjE3NzIzNDg4LCJpYXQiOjE2MTc3MjE2ODh9.GLH2PNPt6Mqazrbniy_i2k9N9OKNfclkAJLuY2m26seR3i-xK87WkKXBtvHOn3RBHn_ipc99RBcTZOZ0DPB5yQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:5001/books/delete-photo/22",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"books",
+								"delete-photo",
+								"22"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

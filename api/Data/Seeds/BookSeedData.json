@@ -1,0 +1,256 @@
+﻿[
+  {
+    "Title": "Lost in the Desert",
+    "Descriptions": "Diseases of the respiratory system complicating the puerperium",
+    "PublicationDate": "2011-01-25",
+    "Publisher": "Toy-Schimmel",
+    "Language": "German",
+    "Pages": 417,
+    "CategoryCode": "romance",
+    "Photos": [
+      {
+        "Url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562429582i/4572306._UY760_SS760_.jpg",
+        "IsMain": true
+      },
+      {
+        "Url": "https://images-na.ssl-images-amazon.com/images/I/81r2m1Wq2GL.jpg",
+        "IsMain": false
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 1
+      },
+      {
+        "AuthorId": 2
+      }
+    ]
+  },
+  {
+    "Title": "No Distance Left to Run",
+    "Descriptions": "Poisoning by anthelminthics, assault, initial encounter",
+    "PublicationDate": "2011-11-17",
+    "Publisher": "Stark Inc",
+    "Language": "French",
+    "Pages": 525,
+    "CategoryCode": "romance",
+    "Photos": [
+      {
+        "Url": "https://i.pinimg.com/474x/ce/47/fa/ce47fab7b154caf3015551085d0ec375.jpg",
+        "IsMain": true
+      },
+      {
+        "Url": "https://soenglish.me/content/images/2020/04/07-speaking-book.jpg",
+        "IsMain": false
+      },
+      {
+        "Url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/ProgrammingPerl.jpg/220px-ProgrammingPerl.jpg",
+        "IsMain": false
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 5
+      },
+      {
+        "AuthorId": 2
+      },
+      {
+        "AuthorId": 7
+      }
+    ]
+  },
+  {
+    "Title": "Trial of Joan of Arc, The (Procès de Jeanne d'Arc)",
+    "Descriptions": "Unspecified injury of unspecified urinary and pelvic organ, initial encounter",
+    "PublicationDate": "2005-07-18",
+    "Publisher": "Kris LLC",
+    "Language": "German",
+    "Pages": 488,
+    "CategoryCode": "romance",
+    "Photos": [
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQcYNd9EZ7nYeg-Tcw26XVqvOEzsGLfwC9yA&usqp=CAU",
+        "IsMain": true
+      },
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQGWV54VG7xtVntKOdteAxLLRaNKor6GUEYgfyQ4O5oMtXhrJDM8oKsjW6e63Qlq94BdA&usqp=CAU",
+        "IsMain": false
+      },
+      {
+        "Url": "https://i.pinimg.com/originals/1c/1f/fe/1c1ffeed262fc80dc5c6b32ada7684ea.jpg",
+        "IsMain": false
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 10
+      }
+    ]
+  },
+  {
+    "Title": "New Town Killers",
+    "Descriptions": "Salter-Harris Type I physeal fracture of upper end of femur",
+    "PublicationDate": "2001-07-25",
+    "Publisher": "Wolf, Rath and Marvin",
+    "Language": "English",
+    "Pages": 200,
+    "CategoryCode": "programming",
+    "Photos": [
+      {
+        "Url": "https://image.slidesharecdn.com/c867772c-fa86-48ce-9f89-57d4232d6690-150410135832-conversion-gate01/95/spark-program-book-1-638.jpg?cb=1428675397",
+        "IsMain": true
+      },
+      {
+        "Url": "https://salt.tikicdn.com/ts/product/2e/0b/e7/6201820ef5c4e5b7b564807cfe0bbcc6.jpg",
+        "IsMain": false
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 1
+      }
+    ]
+  },
+  {
+    "Title": "Offside",
+    "Descriptions": "Unspecified injury of axillary or brachial vein, unspecified side, initial encounter",
+    "PublicationDate": "2002-06-22",
+    "Publisher": "Green-Lemke",
+    "Language": "French",
+    "Pages": 440,
+    "CategoryCode": "romance",
+    "Photos": [
+      {
+        "Url": "https://i.pinimg.com/736x/ec/54/4b/ec544b3cf422e9484a7c6141b2e7fc30.jpg",
+        "IsMain": true
+      },
+      {
+        "Url": "https://i.pinimg.com/474x/e6/9f/7d/e69f7d086254c62abbbddc5daa513ca2.jpg",
+        "IsMain": false
+      },
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk65IwUb68y8MPums7Zm9f1jR02sRZlWNh6Q&usqp=CAU",
+        "IsMain": false
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 2
+      }
+    ]
+  },
+  {
+    "Title": "Stay Tuned",
+    "Descriptions": "Unspecified astigmatism, left eye",
+    "PublicationDate": "2010-01-27",
+    "Publisher": "Bergstrom and Sons",
+    "Language": "English",
+    "Pages": 525,
+    "CategoryCode": "comic",
+    "Photos": [
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM73NcqK9NxpzVkJknNDTlkW8TAN16zF66EQ&usqp=CAU",
+        "IsMain": true
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 7
+      },
+      {
+        "AuthorId": 9
+      }
+    ]
+  },
+  {
+    "Title": "Call of the Wild, The",
+    "Descriptions": "Displacement of insulin pump",
+    "PublicationDate": "2006-05-05",
+    "Publisher": "Funk, Gutkowski and Hagenes",
+    "Language": "German",
+    "Pages": 670,
+    "CategoryCode": "fantasy",
+    "Photos": [
+      {
+        "Url": "https://d1466nnw0ex81e.cloudfront.net/n_ii/originalimage/5146549.jpg",
+        "IsMain": true
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 7
+      }
+    ]
+  },
+  {
+    "Title": "Yours, Mine and Ours",
+    "Descriptions": "Open bite of wrist",
+    "PublicationDate": "2009-06-29",
+    "Publisher": "Cruickshank and Sons",
+    "Language": "English",
+    "Pages": 638,
+    "CategoryCode": "comic",
+    "Photos": [
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4B4v9IMoWY-J_t-VrU5uChSItFnNy30TyS7txRgMmOXPKaQKRPngCpWHTnq0B412xBQM&usqp=CAU",
+        "IsMain": true
+      },
+      {
+        "Url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrR3mZFZnT58BJmUA-LkYPSEHl5FyYFpdw201neZrtICwBOSHvZhsHBDyKqDNLXltFV0&usqp=CAU",
+        "IsMain": true
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 6
+      },
+      {
+        "AuthorId": 5
+      }
+    ]
+  },
+  {
+    "Title": "Signs of Life (Lebenszeichen)",
+    "Descriptions": "Person on outside of bus injured in collision with heavy transport vehicle or bus in traffic accident, initial encounter",
+    "PublicationDate": "2019-10-27",
+    "Publisher": "Gulgowski-Ritchie",
+    "Language": "English",
+    "Pages": 506,
+    "CategoryCode": "romance",
+    "Photos": [
+      {
+        "Url": "https://i.pinimg.com/originals/ed/72/78/ed7278d69f925ed0f5a261c5edcfd72c.jpg",
+        "IsMain": true
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 9
+      }
+    ]
+  },
+  {
+    "Title": "Rocket Science",
+    "Descriptions": "External constriction, right knee, sequela",
+    "PublicationDate": "2012-07-16",
+    "Publisher": "Satterfield, Williamson and Batz",
+    "Language": "French",
+    "Pages": 158,
+    "CategoryCode": "fantasy",
+    "Photos": [
+      {
+        "Url": "https://i.pinimg.com/474x/58/01/2d/58012dc9fa2f37b32af21840e51c6008.jpg",
+        "IsMain": true
+      }
+    ],
+    "BookAuthors": [
+      {
+        "AuthorId": 1
+      },
+      {
+        "AuthorId": 2
+      }
+    ]
+  }
+]

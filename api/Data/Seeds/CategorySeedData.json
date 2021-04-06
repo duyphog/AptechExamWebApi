@@ -1,0 +1,18 @@
+﻿[
+  {
+    "Code": "comic",
+    "Name": "Comic"
+  },
+  {
+    "Code": "programming",
+    "Name": "Programming"
+  },
+  {
+    "Code": "fantasy",
+    "Name": "Fantasy"
+  },
+  {
+    "Code": "romance",
+    "Name": "Romance"
+  }
+]

@@ -1,0 +1,29 @@
+2021-04-07T00:00:01.2638620+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "DELETE" "/books/delete-photo/22" responded 401 in 10.1542 ms
+2021-04-07T00:00:19.6961880+07:00 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2021-04-07T00:01:02.1976250+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:5001"
+2021-04-07T00:01:02.2232650+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5000"
+2021-04-07T00:01:02.2235120+07:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2021-04-07T00:01:02.2235890+07:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2021-04-07T00:01:02.2236720+07:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "/Users/phongnd/Downloads/Aptech/BookApp/api"
+2021-04-07T00:01:10.8191050+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/accounts/register" responded 200 in 1120.0964 ms
+2021-04-07T00:01:14.3435130+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/accounts/register" responded 400 in 14.3867 ms
+2021-04-07T00:01:25.7564150+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/accounts/register" responded 400 in 18.6660 ms
+2021-04-07T00:01:29.9749520+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/accounts/register" responded 200 in 63.0476 ms
+2021-04-07T00:04:34.7023210+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/books" responded 200 in 182.7183 ms
+2021-04-07T00:04:44.0960260+07:00 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2021-04-07T00:04:50.7382100+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:5001"
+2021-04-07T00:04:50.7575070+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5000"
+2021-04-07T00:04:50.7578030+07:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2021-04-07T00:04:50.7578690+07:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2021-04-07T00:04:50.7579380+07:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "/Users/phongnd/Downloads/Aptech/BookApp/api"
+2021-04-07T00:04:54.7542780+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/books" responded 400 in 465.9742 ms
+2021-04-07T00:04:57.9054530+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "POST" "/books" responded 200 in 531.5346 ms
+2021-04-07T00:05:57.0784790+07:00 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2021-04-07T00:07:02.1683580+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "https://localhost:5001"
+2021-04-07T00:07:02.1876180+07:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5000"
+2021-04-07T00:07:02.1878070+07:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2021-04-07T00:07:02.1879210+07:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2021-04-07T00:07:02.1879900+07:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: "/Users/phongnd/Downloads/Aptech/BookApp/api"
+2021-04-07T00:09:43.5683930+07:00 [WRN] (Microsoft.EntityFrameworkCore.Query) Compiling a query which loads related collections for more than one collection navigation either via 'Include' or through projection but no 'QuerySplittingBehavior' has been configured. By default Entity Framework will use 'QuerySplittingBehavior.SingleQuery' which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'
+2021-04-07T00:09:43.6876480+07:00 [INF] (Serilog.AspNetCore.RequestLoggingMiddleware) HTTP "GET" "/books" responded 200 in 438.2669 ms
+2021-04-07T00:09:59.1083650+07:00 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
